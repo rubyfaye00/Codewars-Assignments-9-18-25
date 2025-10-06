@@ -1,3 +1,7 @@
+#No Yelling!
+#https://www.codewars.com/kata/587a75dbcaf9670c32000292
+#This code cleans up the sentance by removing the extra words, converting all words to lowercase but still capitalizing the first letter.
+
 def filter_text(text): 
 #remove extra spaces and split into words
     words = text.strip().split()
@@ -12,4 +16,5 @@ def filter_text(text):
     
 print(filter_text("HOW ARE YOU TODAY"))
 print(filter_text("how DOES this worK"))
+
 print(filter_text("CAN YOU hear Me"))
